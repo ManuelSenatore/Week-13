@@ -47,4 +47,17 @@ a {
  .my-button {
    border: 1px solid #838383;
  }
- 
+ .budka-saga {
+   transition: scroll 1s;
+ }
+
+ .budka-saga::-webkit-scrollbar {
+   display: none;
+ }
+
+ .budka-button {
+   border: none;
+   background-color: transparent;
+   color: white;
+   font-size: 3rem;
+ }

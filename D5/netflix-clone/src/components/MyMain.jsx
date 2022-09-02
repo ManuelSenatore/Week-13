@@ -35,9 +35,9 @@ import MyGallery from "./MyGallery";
     render() {
         return (
             <Container className="main" fluid>
-                <MyGallery title={'Harry Potter'} gallery={this.state.harryPotter} />
-                <MyGallery title={'Mission Impossible'} gallery={this.state.missionimpossible} />
-                <MyGallery title={'Fast And Furious'} gallery={this.state.fastAndFurious} />
+                <MyGallery n={0} title={'Harry Potter'} gallery={this.state.harryPotter} />
+                <MyGallery n={1} title={'Mission Impossible'} gallery={this.state.missionimpossible} />
+                <MyGallery n={2} title={'Fast And Furious'} gallery={this.state.fastAndFurious} />
             </Container>
         )
     }
