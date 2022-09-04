@@ -1,0 +1,14 @@
+#root {
+    min-height: 100vh;
+}
+
+footer {
+    position: fixed;
+    padding: 1.2em;
+    width: 100%;
+    bottom: 0px;
+}
+
+.book-cover {
+    width: 33%;
+}
